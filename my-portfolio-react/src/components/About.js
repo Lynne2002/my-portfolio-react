@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 
 function About() {
   return (
@@ -43,9 +44,9 @@ function About() {
             <div className="timeline-item">
               <span className="date">June 2021- December 2022</span>
               <h4>Google Project Management - <span>Coursera</span> </h4>
-              <p>6 Courses Completed<br/><a
-                  href="https://www.coursera.org/account/accomplishments/specialization/certificate/R3DEJAEBCWV9"
-                  target="_blank">View Certificate</a></p>
+              <p>6 Courses Completed<br/><Link
+                  to="https://www.coursera.org/account/accomplishments/specialization/certificate/R3DEJAEBCWV9"
+                  target="_blank">View Certificate</Link></p>
 
             </div>
             <div className="timeline-item">
