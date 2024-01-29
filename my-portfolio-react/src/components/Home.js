@@ -2,26 +2,26 @@ import React from 'react'
 
 function Home() {
   return (
-    <section class="home-section" id="profile">
-    <div class="pic-container">
+    <section className="home-section" id="profile">
+    <div className="pic-container">
           <img src="./assets/prof.png" alt="My profile" />
     </div>
-    <div class="text">
-      <p class="text_p1">Hello, I am</p>
-      <h1 class="title">Lynne Chebet</h1>
-      <div class="text-3">And I'm a 
-        <span class="typing">
+    <div className="text">
+      <p className="text_p1">Hello, I am</p>
+      <h1 className="title">Lynne Chebet</h1>
+      <div className="text-3">And I'm a 
+        <span className="typing">
         </span>
     </div>
     <br/>
-      <div class="btn-container">
+      <div className="btn-container">
         <button
-          class="btn btn-color-2"
+          className="btn btn-color-2"
           onclick="window.open('./assets/my_CV.pdf')"
         >
           My CV
         </button>
-        <button class="btn btn-color-1" onclick="location.href='#contact'">
+        <button className="btn btn-color-1" onclick="location.href='#contact'">
           My contacts
         </button>
       </div>
