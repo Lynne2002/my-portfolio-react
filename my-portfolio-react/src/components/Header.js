@@ -14,6 +14,7 @@ function Header() {
                 <li><Link to="skills">Technical skills</Link></li>
                 <li><Link to="portfolio">My projects</Link></li>
                 <li><Link to="contact">Contact Me</Link></li>
+                <li><Link to="ext_API">Jokes</Link></li>
             </ul>
             </div>
            </nav>
