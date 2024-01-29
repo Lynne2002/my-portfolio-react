@@ -1,4 +1,4 @@
-Github Pages: [Github Pages](https://lynne2002.github.io/)
+Github Pages: [Github Pages](https://lynne2002.github.io/my-portfolio-react/)
 
 1. **What is NPM?**
    NPM is Node Package Manager. It is the default package manager for the runtime Node.js
@@ -28,9 +28,11 @@ Because the onClick expects a function call only, and in the above code it is th
   
   destructuring:
 let { name: firstname, home: place_of_birth } = person; 
-9. **How is it possible to use HTML and JavaScript in the same function (like in a React Component)? What makes it possible under the hood?**
+
+8. **How is it possible to use HTML and JavaScript in the same function (like in a React Component)? What makes it possible under the hood?**
    Becaause of JSX, which is having HTML within JS. It is HTML but under the hood, it is a JavaScript function
-10. **What is async/await? Bring an example**
+   
+9. **What is async/await? Bring an example**
     async means a function always returns a promise, while await makes JavaScript wait until that promise settles and returns its result.
          async function a() {
             return 0;
@@ -38,7 +40,7 @@ let { name: firstname, home: place_of_birth } = person;
 
 f().then(alert);
     
-11.** What is a Promise? Bring an example**
+10.**What is a Promise? Bring an example**
     A Promise is an object that runs and promises a fulfillment of something/results, rejection or a return of something
     For example:
     
