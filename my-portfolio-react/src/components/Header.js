@@ -9,7 +9,7 @@ function Header() {
             <div className="logo">My Portfolio</div>
             <div>
              <ul className ="nav-links">
-                <li><Link to="home">Home</Link></li>
+                <li><Link to="/">Home</Link></li>
                 <li><Link to="about">About Me</Link></li>
                 <li><Link to="skills">Technical skills</Link></li>
                 <li><Link to="portfolio">My projects</Link></li>
@@ -27,10 +27,10 @@ function Header() {
                  <span></span>
             </div>
             <div className="menu-links">
-                <li><a href="#about" onclick="toggleMenu()">About Me </a></li>
-                <li><a href="#skills" onclick="toggleMenu()">Technical skills</a></li>
-                <li><a href="#projects" onclick="toggleMenu()">My projects</a></li>
-                <li><a href="#contact" onclick="toggleMenu()">Contact Me</a></li>
+                <li><Link to="#about" onclick="toggleMenu()">About Me </Link></li>
+                <li><Link to="#skills" onclick="toggleMenu()">Technical skills</Link></li>
+                <li><Link to="#projects" onclick="toggleMenu()">My projects</Link></li>
+                <li><Link to="#contact" onclick="toggleMenu()">Contact Me</Link></li>
         </div>
     </div>
 
