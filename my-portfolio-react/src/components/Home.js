@@ -1,6 +1,7 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 import Typed_script from './Typed_script'
+import openCV from './openCV'
 
 function Home() {
   return (
@@ -19,7 +20,7 @@ function Home() {
       <div className="btn-container">
         <button
           className="btn btn-color-2"
-  
+        onClick={openCV}
         >
           My CV
         </button>
